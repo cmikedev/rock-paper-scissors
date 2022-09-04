@@ -1,4 +1,9 @@
 
+
+function id(id) {
+    return document.getElementById(id);
+}
+
 const choices = ["rock", "paper", "scissors"]
 
 let computerChoice = choices[createComputerChoice()];
