@@ -1,0 +1,52 @@
+body {
+  margin: auto;
+}
+
+hr {
+  width: 60%;
+}
+
+.scores {
+  height: 50px;
+  width: 40%;
+  border: 1px solid black;
+  margin: 5px;
+  display: inline-flex;
+}
+
+.guess {
+  height: 250px;
+  width: 40%;
+  border: 1px solid black;
+  margin: 5px;
+  display: inline-flex;
+}
+ 
+#selection-container {
+  align-items: center;
+}
+
+.selection {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 5px;
+  display: inline-flex;
+}
+
+.selection:hover {
+  border: 3px solid blue;
+}
+
+#instructions {
+  border: 1px solid blue;
+  width: 200px;
+  height: 50px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+#instructions:hover{
+  border: 5px solid red;
+  background-color: coral;
+}
