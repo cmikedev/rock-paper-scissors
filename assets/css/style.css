@@ -1,7 +1,12 @@
-body {
+/*body {
   margin: auto;
+}*/
+
+#page-title {
+  font-family: "Rampart One";
 }
 
+/*
 hr {
   width: 60%;
 }
