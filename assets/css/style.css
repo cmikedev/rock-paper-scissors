@@ -3,19 +3,50 @@
 }*/
 
 #page-title {
-  position: fixed;
-  width: 33%;
-  left: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
   font-family: "Rampart One";
   text-align: center;
 }
 
 #instructions {
-  position: absolute;
-  top: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 33%;
-  left: 33%;
+  text-align: center;
 }
+
+#score-container {
+  display: inline-flex;
+  margin-left: 41%;
+}
+
+ #player-score, #computer-score {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  box-shadow: 2px 2px;
+  text-align: center;
+  }
+
+#player, #computer {
+  border: 1px solid black;
+  margin: 2px;
+  height: 20px;
+  width: 75px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+#computer {
+  margin-left: 4px;
+}
+
 
 /*
 hr {
