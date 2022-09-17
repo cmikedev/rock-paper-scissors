@@ -24,10 +24,16 @@ hr {
 }
 
 #score-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  text-align: center;
+}
+
+#scores {
   display: inline-flex;
-  margin-left: 40.5%;
   align-items: center;
-  border: 1px solid black;
 }
 
  #player-score, #computer-score {
