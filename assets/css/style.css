@@ -3,7 +3,18 @@
 }*/
 
 #page-title {
+  position: fixed;
+  width: 33%;
+  left: 33%;
   font-family: "Rampart One";
+  text-align: center;
+}
+
+#instructions {
+  position: absolute;
+  top: 15%;
+  width: 33%;
+  left: 33%;
 }
 
 /*
