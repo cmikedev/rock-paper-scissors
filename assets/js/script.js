@@ -3,9 +3,9 @@ function id(id) {
     return document.getElementById(id);
 };
 
-let rockPic = '<span class="pic-choice"><i class="fa-regular fa-hand-back-fist"></i></span>';
-let paperPic = '<span class="pic-choice"><i class="fa-regular fa-hand"></i></span>';
-let scissorsPic = '<span class="pic-choice"><i class="fa-regular fa-hand-scissors"></i></span>';
+let rockPic = '<span class="js-pic-choice"><i class="fa-regular fa-hand-back-fist"></i></span>';
+let paperPic = '<span class="js-pic-choice"><i class="fa-regular fa-hand"></i></span>';
+let scissorsPic = '<span class="js-pic-choice"><i class="fa-regular fa-hand-scissors"></i></span>';
 
 let playerChoice = "";
 let computerChoice = "";
@@ -21,6 +21,7 @@ id("rock-box").addEventListener("click", () => {
     createComputerChoice();
     calcScores(playerChoice, computerChoice);
     updateScores();
+    endGame();
 });
 
 id("paper-box").addEventListener("click", () => {
@@ -29,6 +30,7 @@ id("paper-box").addEventListener("click", () => {
     createComputerChoice();
     calcScores(playerChoice, computerChoice);
     updateScores();
+    endGame();
   });
 
 id("scissors-box").addEventListener("click", () => {
@@ -37,6 +39,7 @@ id("scissors-box").addEventListener("click", () => {
     createComputerChoice();
     calcScores(playerChoice, computerChoice);
     updateScores();
+    endGame();
 });
 
 /*----------------------Populating Computer Choice Image & Calculating Scores */
@@ -80,8 +83,29 @@ function calcScores(playerChoice, computerChoice) {
 /*----------------------Displaying the Scores */
 
 function updateScores() {
-    id("player-score").innerText = playerScore;
-    id("computer-score").innerText = computerScore;
+    id("player-score").innerHTML = '<span class="js-scores">' + playerScore; + '</span>'
+    id("computer-score").innerHTML = '<span class="js-scores">' + computerScore; + '</span>'
 };
 
-/*----------------------Clearing the Scores and Images */
+/*----------------------Clearing the Game */
+
+function clearGame() {
+    playerChoice = "";
+    computerChoice = "";
+    playerScore = 0;
+    computerScore = 0;
+};
+
+/*----------------------Win/Lose Game */
+
+function endGame() {
+    if (playerScore === 3) {
+        id("player-choice").innerHTML = '<span class="js-end-game">You Win!</span>';
+        playerScore = 0;
+        computerScore = 0;
+    } else if (computerScore === 3) {
+        id("player-choice").innerHTML = '<span class="js-end-game">You Lose!</span>';
+        playerScore = 0;
+        computerScore = 0;
+    };
+};
