@@ -23,6 +23,8 @@ hr {
   text-align: center;
 }
 
+/*----------------------Scores */
+
 #score-container {
   display: block;
   margin-left: auto;
@@ -59,6 +61,25 @@ hr {
   margin-left: 4px;
 }
 
+/*----------------------Computer and Player Choices */
+
+#choices-container {
+  align-items: center;
+  text-align: center;
+}
+
+.choice {
+  height: 350px;
+  width: 350px;
+  border: 1px solid black;
+  margin: 5px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 3em;
+}
+
+/*----------------------Player Selection */
+
 #selection-container {
   align-items: center;
   text-align: center;
@@ -81,6 +102,8 @@ hr {
   font-size: 5em;
   margin: 0 auto;
 }
+
+/*----------------------Media Queries */
 
 
 /*
