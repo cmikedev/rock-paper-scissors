@@ -51,7 +51,8 @@ hr {
   border: 1px solid black;
   margin: 2px;
   height: 20px;
-  width: 75px;
+  width: 80px;
+  padding: 2px;
   background-color: grey;
   color: white;
   text-align: center;
@@ -136,6 +137,44 @@ hr {
 
 /*----------------------Media Queries */
 
+@media screen and (max-width: 460px) {
+  #player-score, #computer-score {
+    height: 25px;
+    width: 25px;
+  }
+
+  #player, #computer {
+    height: 10px;
+    width: 50px;
+    font-size: 0.6em;
+  }
+
+  .js-scores {
+    font-size: 1em;
+  }
+  
+  .choice {
+    height: 90px;
+    width: 90px;
+  }
+
+  .js-pic-choice {
+    font-size: 1.5em;
+  }
+
+  .selection {
+    height: 50px;
+    width: 50px;
+  }
+  
+  #rock, #paper, #scissors {
+    font-size: 1.5em;
+  }
+
+  .js-end-game {
+    font-size: 0.5em;
+  }
+}
 
 /*
 hr {
