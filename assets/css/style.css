@@ -100,6 +100,11 @@ hr {
   text-align: center;
 }
 
+.instruction-note {
+  color: #e84610;
+  font-weight: bold;
+}
+
 .selection {
   height: 100px;
   width: 100px;
