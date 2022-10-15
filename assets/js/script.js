@@ -85,8 +85,8 @@ function calcScores(playerChoice, computerChoice) {
 /*----------------------Displaying the Scores */
 
 function updateScores() {
-    id("player-score").innerHTML = '<span class="js-scores">' + playerScore; + '</span>'
-    id("computer-score").innerHTML = '<span class="js-scores">' + computerScore; + '</span>'
+    id("player-score").innerHTML = '<span class="js-scores">' + playerScore; + '</span>';
+    id("computer-score").innerHTML = '<span class="js-scores">' + computerScore; + '</span>';
 };
 
 /*----------------------Clearing the Game */
