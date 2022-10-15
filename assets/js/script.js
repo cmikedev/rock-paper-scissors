@@ -85,8 +85,18 @@ function calcScores(playerChoice, computerChoice) {
 /*----------------------Displaying the Scores */
 
 function updateScores() {
-    id("player-score").innerHTML = '<span class="js-scores">' + playerScore; + '</span>';
-    id("computer-score").innerHTML = '<span class="js-scores">' + computerScore; + '</span>';
+    id("player-score-p").innerHTML = '<span class="js-scores">' + playerScore; + '</span>';
+    id("computer-score-p").innerHTML = '<span class="js-scores">' + computerScore; + '</span>';
+    if (playerScore > computerScore) {
+        id("player-score-p").className = "color-green"
+        id("computer-score-p").className = "color-red"
+    } else if (playerScore < computerScore) {
+        id("player-score-p").className = "color-red"
+        id("computer-score-p").className = "color-green"
+    } else {
+        id("player-score-p").className = "color-black"
+        id("computer-score-p").className = "color-black"
+    };
 };
 
 /*----------------------Clearing the Game */

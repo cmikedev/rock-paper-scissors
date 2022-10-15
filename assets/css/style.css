@@ -47,6 +47,13 @@ hr {
   text-align: center;
   }
 
+#player-score-p, #computer-score-p {
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  }
+
 #player, #computer {
   border: 1px solid black;
   margin: 2px;
@@ -140,6 +147,18 @@ hr {
   margin: 0 auto;
   display: flex;
   justify-content: center;
+}
+
+.color-black {
+  color: black;
+}
+
+.color-green {
+  color: green;
+}
+
+.color-red {
+  color: red;
 }
 
 /*----------------------Media Queries */
