@@ -151,14 +151,17 @@ hr {
 
 .color-black {
   color: black;
+  background-color: #fafafa;
 }
 
 .color-green {
-  color: green;
+  color: darkgreen;
+  background-color: aquamarine;
 }
 
 .color-red {
-  color: red;
+  color: darkred;
+  background-color: lightcoral;
 }
 
 /*----------------------Media Queries */
