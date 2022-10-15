@@ -13,6 +13,8 @@ let computerChoice = "";
 let playerScore = 0;
 let computerScore = 0;
 
+window.onload = updateScores();
+
 /*----------------------Populating Player Choice Image */
 
 id("rock-box").addEventListener("click", () => {
