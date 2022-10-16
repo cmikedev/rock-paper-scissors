@@ -184,7 +184,11 @@ hr {
 
 /*----------------------Media Queries */
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 550px) {
+  #page-title {
+    font-size: 100%;
+  }
+  
   #instructions {
     width: 66%;
     font-size: 0.5em;
@@ -228,38 +232,19 @@ hr {
   }
 }
 
-/*
-hr {
-  width: 60%;
-}
+@media screen and (max-width: 300px) {
+  #player-score, #computer-score {
+    height: 20px;
+    width: 20px;
+  }
 
-.scores {
-  height: 50px;
-  width: 40%;
-  border: 1px solid black;
-  margin: 5px;
-  display: inline-flex;
-}
+  #player, #computer {
+    height: 10px;
+    width: 40px;
+    font-size: 0.5em;
+  }
 
-.guess {
-  height: 250px;
-  width: 40%;
-  border: 1px solid black;
-  margin: 5px;
-  display: inline-flex;
-}
-
-
-
-#instructions {
-  border: 1px solid blue;
-  width: 200px;
-  height: 50px;
-  background-color: lightblue;
-  text-align: center;
-}
-
-#instructions:hover{
-  border: 5px solid red;
-  background-color: coral;
+  .js-scores {
+    font-size: 0.8em;
+  }
 }
