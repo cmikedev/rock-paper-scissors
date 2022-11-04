@@ -13,7 +13,31 @@ let computerChoice = "";
 let playerScore = 0;
 let computerScore = 0;
 
-window.onload = updateScores();
+/* window.onload = updateScores(); */
+window.onload = pageLoad();
+
+/*----------------------Page Load */
+
+function pageLoad() {
+    updateScores();
+    id("instructions").style.display = "none";
+};
+
+/*----------------------Toggle Instructions */
+
+const instructions = id("instructions-btn");
+instructions.addEventListener("click", instructionsToggle);
+
+function instructionsToggle() {
+    let e = id("instructions");
+    if (e.style.display === "none") {
+        e.style.display = "block";
+        instructions.innerHTML = "Hide Instructions";
+    } else {
+        e.style.display = "none";
+        instructions.innerHTML = "Show Instructions";
+    };
+};
 
 /*----------------------Populating Player Choice Image */
 

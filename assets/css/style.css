@@ -16,6 +16,7 @@ hr {
   width: 60%;
 }
 
+/*
 #instructions {
   display: block;
   margin-left: auto;
@@ -25,6 +26,47 @@ hr {
   border: 1px solid black;
   background-color: lightgray;
 }
+*/
+
+/*----------------------Instructions Button */
+
+#instructions-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  text-align: center;
+  padding: 2px;
+  font-family: "Rampart One", sans-serif;
+  transition: 0.3s ease;
+  /*background-color: grey;
+  font-weight: bold;
+  font-family: "Rampart One", sans-serif;
+  transition: 0.3s ease;*/
+}
+
+#instructions-btn:hover {
+  color: #e84610;
+  transform: scale(1.25);
+  -moz-transition: scale(1.25);
+  -webkit-transition: scale(1.25);
+  -o-transition: scale(1.25);
+}
+
+#instructions {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+  text-align: center;
+  border: 1px solid black;
+  background-color: lightgray;
+}
+
+#instructions h2 {
+  font-family: "Rampart One", sans-serif;
+}
+
 
 /*----------------------Scores */
 
