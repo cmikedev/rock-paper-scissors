@@ -41,7 +41,7 @@ The user can see their score against the computer score highlighted in green if 
 Whether the player wins or loses, when the game ends the image in the player's window will render a message telling them of the result. The window will enlarge and be surrounded by a bright border give the player a sense of an event taking place - that is, the game ending.<br />
 <br />
 
-![image]()<br />
+![image](https://github.com/cmikedev/rock-paper-scissors/blob/main/assets/readme-images/end-game.png?raw=true)<br />
 <br />
 
 
