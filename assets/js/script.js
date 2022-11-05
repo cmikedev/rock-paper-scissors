@@ -128,15 +128,6 @@ function updateScores() {
     };
 };
 
-/*----------------------Clearing the Game */
-
-function clearGame() {
-    playerChoice = "";
-    computerChoice = "";
-    playerScore = 0;
-    computerScore = 0;
-};
-
 /*----------------------Win/Lose Game */
 
 function endGame() {
