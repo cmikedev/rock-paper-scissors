@@ -29,10 +29,16 @@ Although the game is ubiquitous in English-speaking countries, it could not be a
 User-interactive elements on the page such as the button and the images denoting the players choice have hover effects to further guide the user to interact with the game, enhacing the user experience.<br />
 <br />
 
-![image]()<br />
+![image](https://github.com/cmikedev/rock-paper-scissors/blob/main/assets/readme-images/hover.png?raw=true)<br />
 <br />
 
-The user can see their score against the computer score highlighted in green if winning or red if losing.<br />
+The user can see their score against the computer score highlighted in green if winning or red if losing. Or, if the score is equal, no colour is assigned.<br />
+<br />
+
+![image](https://github.com/cmikedev/rock-paper-scissors/blob/main/assets/readme-images/score.png?raw=true)<br />
+<br />
+
+Whether the player wins or loses, when the game ends the image in the player's window will render a message telling them of the result. The window will enlarge and be surrounded by a bright border give the player a sense of an event taking place - that is, the game ending.<br />
 <br />
 
 ![image]()<br />
