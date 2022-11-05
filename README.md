@@ -22,7 +22,8 @@ The site consists of a single page designed to be clear and intuitive for the us
 
 Although the game is ubiquitous in English-speaking countries, it could not be assumed that all visitors would be familiar with the rules. An instructions section was addded into the initial page layout. This was updated in future drafts whereby the user could toggle the instructions from visible to hidden via a button thereby creating a cleaner page.<br />
 <br />
-![image]()<br />
+
+![image](https://github.com/cmikedev/rock-paper-scissors/blob/main/assets/readme-images/instructions.png?raw=true)<br />
 <br />
 
 User-interactive elements on the page such as the button and the images denoting the players choice have hover effects to further guide the user to interact with the game, enhacing the user experience.<br />
@@ -77,7 +78,7 @@ User-interactive elements on the page such as the button and the images denoting
     <br />
     The addition of Google Fonts had a negative impact on performance<br />
     <br />
-    ![image](https://github.com/cmikedev/rock-paper-scissors/blob/main/assets/readme-images/css-warnings.png?raw=true)<br />
+    ![image](https://github.com/cmikedev/rock-paper-scissors/blob/main/assets/readme-images/lighthouse-fonts.png?raw=true)<br />
     <br />
     * The front page full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Frock-paper-scissors%2F)<br />
     <br />
@@ -98,7 +99,7 @@ User-interactive elements on the page such as the button and the images denoting
     * From the __Source__ selection drop-down, select __Branch__ > __main__
     * The page will then automatically refresh displaying a ribbon indicating deployment status<br />
     <br />
-    The deployed website can be found here - https://cmikedev.github.io/rock-paper-scissors/<br />
+    The deployed website can be found at - https://cmikedev.github.io/rock-paper-scissors/<br />
     <br />
 
 ### Forking the repository
@@ -125,10 +126,6 @@ User-interactive elements on the page such as the button and the images denoting
 * The favicon in the tile (page tab) was taken from [Flaticon](https://www.flaticon.com/)
 * The images were taken from [Font Awesome](https://fontawesome.com/)
 * The fonts were taken from [Google Fonts](https://fonts.google.com/)
-
-### Research and Guidance
-* [RedFlyer Coding](https://www.youtube.com/watch?v=ea3UBpMHDoc&t=1096s) (video series) for guidance on board creation logic and user experience
-* [Stackoverflow](https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null) for guidance on the window load console error
 
 ----
 
