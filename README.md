@@ -29,6 +29,15 @@ Although the game is ubiquitous in English-speaking countries, it could not be a
 User-interactive elements on the page such as the button and the images denoting the players choice have hover effects to further guide the user to interact with the game, enhacing the user experience.<br />
 <br />
 
+![image]()<br />
+<br />
+
+The user can see their score against the computer score highlighted in green if winning or red if losing.<br />
+<br />
+
+![image]()<br />
+<br />
+
 
 ## Testing
 
