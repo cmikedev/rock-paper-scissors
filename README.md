@@ -90,9 +90,13 @@ User-interactive elements on the page such as the button and the images denoting
 
 * #### W3C
     * HTML
-        * The HTML was checked through the [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmikedev.github.io%2Frock-paper-scissors%2F). Initially, 4 errors and 3 warnings were returned. The 4 errors were due to the use of alt attributes within the i elements and a stray footer tag. The warnings were due to the use of aria labels again within the i elements. Like the alt attributes, the aria labels were intended to provide greater accessibility for users. However, due to the errors and warnings being returned they have been removed. The HTML now returns no errors when put through the W3C HTML Validator.
+        * The HTML was checked through the [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmikedev.github.io%2Frock-paper-scissors%2F).
+        
+        Initially, 4 errors and 3 warnings were returned. The 4 errors were due to the use of alt attributes within the i elements and a stray footer tag. The warnings were due to the use of aria labels again within the i elements. Like the alt attributes, the aria labels were intended to provide greater accessibility for users. However, due to the errors and warnings being returned they have been removed. The HTML now returns no errors when put through the W3C HTML Validator.
     * CSS
-        * There were no errors or warnings within the CSS when checked through The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2Fgame.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)<br />
+        * There were no errors but 12 warnings were returned when the CSS when checked through The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcmikedev.github.io%2Frock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+        
+        These warnings relate to the use of vendor extensions within the hover effects.<br />
         <br />
 
 * #### JSHint
