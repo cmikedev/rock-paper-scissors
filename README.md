@@ -20,7 +20,10 @@ https://github.com/cmikedev/rock-paper-scissors
 
 The site consists of a single page designed to be clear and intuitive for the user. The colour palette was chosen to be intentionally simple and subdued. The intention was to create a clean and minimal view which would enhance usability and clarity for new players.
 
-Although the game is ubiquitous in English-speaking countries, it could not be assumed that all visitors would be familiar with the rules. An instructions section was addded into the initial page layout. This was updated in future drafts whereby the user could toggle the instructions from visible to hidden via a button thereby creating a cleaner page. 
+Although the game is ubiquitous in English-speaking countries, it could not be assumed that all visitors would be familiar with the rules. An instructions section was addded into the initial page layout. This was updated in future drafts whereby the user could toggle the instructions from visible to hidden via a button thereby creating a cleaner page.<br />
+<br />
+![image]()<br />
+<br />
 
 User-interactive elements on the page such as the button and the images denoting the players choice have hover effects to further guide the user to interact with the game, enhacing the user experience.<br />
 <br />
@@ -70,11 +73,11 @@ User-interactive elements on the page such as the button and the images denoting
         <br />
     Performance was the lowest scoring category at 85%<br />
     <br />
-    ![image]()<br />
+    ![image](https://github.com/cmikedev/rock-paper-scissors/blob/main/assets/readme-images/lighthouse-results.png?raw=true)<br />
     <br />
     The addition of Google Fonts had a negative impact on performance<br />
     <br />
-    ![image]()<br />
+    ![image](https://github.com/cmikedev/rock-paper-scissors/blob/main/assets/readme-images/css-warnings.png?raw=true)<br />
     <br />
     * The front page full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Frock-paper-scissors%2F)<br />
     <br />
