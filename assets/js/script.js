@@ -1,7 +1,7 @@
 
 function id(id) {
     return document.getElementById(id);
-};
+}
 
 let rockPic = '<span class="js-pic-choice"><i class="fa-regular fa-hand-back-fist"></i></span>';
 let paperPic = '<span class="js-pic-choice"><i class="fa-regular fa-hand"></i></span>';
@@ -20,7 +20,7 @@ window.onload = pageLoad();
 function pageLoad() {
     updateScores();
     id("instructions").style.display = "none";
-};
+}
 
 /*----------------------Toggle Instructions */
 
@@ -35,8 +35,8 @@ function instructionsToggle() {
     } else {
         e.style.display = "none";
         instructions.innerHTML = "Show Instructions";
-    };
-};
+    }
+}
 
 /*----------------------Populating Player Choice Image */
 
@@ -82,7 +82,7 @@ function createComputerChoice() {
             id("computer-choice").innerHTML = scissorsPic;
         }
     }
-};
+}
 
 /*----------------------Incrementing the Scores */
 
@@ -102,8 +102,8 @@ function calcScores(playerChoice, computerChoice) {
         computerScore ++;
     } else if (playerChoice === "scissors" && computerChoice === "paper") {
         playerScore ++;
-    };
-};
+    }
+}
 
 /*----------------------Displaying the Scores */
 
@@ -125,8 +125,8 @@ function updateScores() {
         id("computer-score").className = "color-black";
         id("player-score-p").className = "color-black";
         id("computer-score-p").className = "color-black";
-    };
-};
+    }
+}
 
 /*----------------------Win/Lose Game */
 
@@ -139,5 +139,5 @@ function endGame() {
         id("player-choice").innerHTML = '<span class="js-end-game">You Lose!</span>';
         playerScore = 0;
         computerScore = 0;
-    };
-};
+    }
+}

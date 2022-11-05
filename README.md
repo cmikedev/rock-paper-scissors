@@ -3,7 +3,7 @@ The Sudoku website is a user-interactive, JavaScript game based on the classic R
 ____
 
 
-![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/amiresponsive-front.png?raw=true)
+![image](https://github.com/cmikedev/rock-paper-scissors/blob/main/assets/readme-images/amiresponsive-screenshot.png?raw=true)
 Images created using [Am I Responsive](https://ui.dev/amiresponsive)<br />
 <br />
 
@@ -16,17 +16,9 @@ https://cmikedev.github.io/rock-paper-scissors/
 https://github.com/cmikedev/rock-paper-scissors
 
 
-## User Stories
-### Structure
+## User Stories & User Stories
 
-* The site consists of one page:
-    * index.html
-    * game.html<br />
-    <br />
-
-### Styling
-
-The colour palette was chosen to be intentionally simple and subdued. The intention was to create a clean and minimal view which would enhance usability and clarity for new players.
+The site consists of a single page designed to be clear and intuitive for the user. The colour palette was chosen to be intentionally simple and subdued. The intention was to create a clean and minimal view which would enhance usability and clarity for new players.
 
 Although the game is ubiquitous in English-speaking countries, it could not be assumed that all visitors would be familiar with the rules. An instructions section was addded into the initial page layout. This was updated in future drafts whereby the user could toggle the instructions from visible to hidden via a button thereby creating a cleaner page. 
 
@@ -40,34 +32,6 @@ User-interactive elements on the page such as the button and the images denoting
 
     ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/instructions.png?raw=true)<br />
     <br />
-
-
-* ### The Footer
-    * The footer section contains social media links encouraging the user to connect and engage via social media.
-    * The social media links open in a new tab allowing easy navigation for the user.<br />
-    <br />
-
-    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/social-media-footer.png?raw=true)<br />
-    <br />
-    
-
-* ### The Game Page
-    * Users can access the game page by clicking on the 'To The Game Page!' link on the front page.
-    * When users arrive on the game page they are presented with a very simple layout allowing them a choice of 'Easy', 'Medium' or 'Hard' and the 'Start Game!'.
-    * The difficulty choice will determing how many lives a user will be given from 12, 7 down to 3.<br />
-    <br />
-
-    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/game-page.png?raw=true)<br/>
-    <br />
-
-    * When the user clicks on 'Start Game!' the board will generate.
-    * At any stage the user can click the 'Reset' button and the board will disappear leaving the user free to select a new difficulty level and start again.<br />
-    <br />
-
-    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/game-page-board.png?raw=true)<br />
-    <br />
-
-
 
 
 ## Testing
@@ -97,6 +61,8 @@ User-interactive elements on the page such as the button and the images denoting
         * There were no errors but 12 warnings were returned when the CSS when checked through The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcmikedev.github.io%2Frock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
         
         These warnings relate to the use of vendor extensions within the hover effects.<br />
+        <br />
+        ![image](https://github.com/cmikedev/rock-paper-scissors/blob/main/assets/readme-images/css-warnings.png?raw=true)<br />
         <br />
 
 * #### JSHint
