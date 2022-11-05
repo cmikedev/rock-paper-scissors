@@ -1,5 +1,5 @@
 # Rock Paper Scissors
-The Sudoku website is a user-interactive, JavaScript game based on the classic Rock Paper Scissors. The intention of this [site](https://cmikedev.github.io/rock-paper-scissors/) is to provide users with a simple, intuitive intuitive interface based on their expectations of what a Rock Paper Scissors game is.
+The Sudoku website is a user-interactive, JavaScript game based on the classic Rock Paper Scissors. The intention of this [site](https://cmikedev.github.io/rock-paper-scissors/) is to provide users with a simple, intuitive interface based on their expectations of what a Rock Paper Scissors game is.
 ____
 
 
@@ -18,18 +18,20 @@ Images created using [Am I Responsive](https://ui.dev/amiresponsive)<br />
 
 
 ## User Stories
-## Structure
+### Structure
 
 * The site consists of one page:
     * index.html
     * game.html<br />
     <br />
 
-## Styling
+### Styling
 
-The colour palette is simple and subdued with only white, black and shades of grey being utilised. This was intentional and inspired from viewing online Sudoku games. It was surmised that this clean and simplistic style is what regular players of online Sudoku may have come to expect and would also increase usability and clarity for new players.
+The colour palette was chosen to be intentionally simple and subdued. The intention was to create a clean and minimal view which would enhance usability and clarity for new players.
 
-To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind the instruction text of the front page and 'Noto Serif' was used from Google Fonts.
+Although the game is ubiquitous in English-speaking countries, it could not be assumed that all visitors would be familiar with the rules. An instructions section was addded into the initial page layout. This was updated in future drafts whereby the user could toggle the instructions from visible to hidden via a button thereby creating a cleaner page. 
+
+User-interactive elements on the page such as the button and the images denoting the players choice have hover effects to further guide the user to interact with the game, enhacing the user experience.
 
 ## Features
 
@@ -84,8 +86,6 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
     * Apple MacBook Air (real-world test on device) <br />
     <br />
 
-* Based on this testing and although optimised through code for devices as low as width 450 pixels, the smallest device that could be recommended to a user is a device with a width of at least 500 pixels (see Bugs section for further comments).<br />
-<br />
 
 ### Validator Testing
 
