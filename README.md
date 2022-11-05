@@ -17,7 +17,7 @@ Images created using [Am I Responsive](https://ui.dev/amiresponsive)<br />
 (https://github.com/cmikedev/rock-paper-scissors)
 
 
-
+## User Stories
 ## Structure
 
 * The site consists of one page:
