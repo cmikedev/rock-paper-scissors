@@ -178,7 +178,7 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 
 ### Deploying the repository via GitHub
 * The website was deployed using GitHub pages via the following steps:
-    * In the Respository section, select the [sudoku](https://github.com/cmikedev/sudoku) repository
+    * In the Respository section, select the [rock-paper-scissors](https://github.com/cmikedev/rock-paper-scissors) repository
     * From the horizontal menu above the repository contents select __Settings__
     * From the left-hand vertical menu, go to the __code and automation__ section and select __pages__
     * From the __Source__ selection drop-down, select __Branch__ > __main__
@@ -189,13 +189,13 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 
 ### Forking the repository
 * The GitHub repository can be forked to make a copy of the original. This copy can then be viewed or changed without affecting the original repository via the following steps:
-    * In the Respository section, select the [sudoku](https://github.com/cmikedev/sudoku) repository
+    * In the Respository section, select the [rock-paper-scissors](https://github.com/cmikedev/rock-paper-scissors) repository
     * At the top right of the page select __fork__ from the menu below your profile
     * A copy of the repository will now be created in your account
 
 ### Creating a local clone
 * To create a local clone via GitHub:
-    * In the Respository section, select the [sudoku](https://github.com/cmikedev/sudoku) repository
+    * In the Respository section, select the [rock-paper-scissors](https://github.com/cmikedev/rock-paper-scissors) repository
     * From the horizontal menu above the repository contents select __Code__
     * __Copy__ the link that that is shown
     * Within __Gitpod__ change the directory to where you would like the location of the cloned directory to be
@@ -209,15 +209,8 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
 
 ### Content
 * The favicon in the tile (page tab) was taken from [Flaticon](https://www.flaticon.com/)
-* The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+* The images were taken from [Font Awesome](https://fontawesome.com/)
 * The fonts were taken from [Google Fonts](https://fonts.google.com/)
-* Code from the [Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) project was utilised in the footer sections and social media links
-* Code from [CSS Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) was taken to set the opacity of the background image without affecting the rest of the div
-* Solved Sudoku puzzle taken from [Sudoku Sandiway](https://sandiway.arizona.edu/sudoku/examples.html)
-* [KennyYipCoding](https://www.youtube.com/watch?v=S4uRtTb8U-U) The basic code in this tutorial provided the basis for the design of the project particularly creating and populating the board
-
-### Media
-* The background image was taken from [Pixabay](https://pixabay.com/vectors/dinosaur-katana-japan-ninja-5178645/)
 
 ### Research and Guidance
 * [RedFlyer Coding](https://www.youtube.com/watch?v=ea3UBpMHDoc&t=1096s) (video series) for guidance on board creation logic and user experience
