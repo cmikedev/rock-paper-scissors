@@ -157,6 +157,12 @@ hr {
   margin: 0 auto;
 }
 
+/*----------------------Footer */
+
+footer {
+  text-align: center;
+}
+
 /*----------------------JavaScript Applied Styles */
 
 .js-scores {
