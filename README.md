@@ -1,5 +1,5 @@
 # Rock Paper Scissors
-The Sudoku website is a user-interactive, JavaScript-based Sudoku puzzle game based on the classic 9x9 board. The intention of this [site](https://cmikedev.github.io/sudoku/) is to provide users with a simple, intuitive gameboard based on their expectations of what a Sudoku puzzle is.
+The Sudoku website is a user-interactive, JavaScript game based on the classic Rock Paper Scissors. The intention of this [site](https://cmikedev.github.io/rock-paper-scissors/) is to provide users with a simple, intuitive intuitive interface based on their expectations of what a Rock Paper Scissors game is.
 ____
 
 
@@ -10,7 +10,7 @@ Images created using [Am I Responsive](https://ui.dev/amiresponsive)<br />
 
 
 ## Deployed Website
-[Sudoku](https://cmikedev.github.io/sudoku/)
+(https://cmikedev.github.io/rock-paper-scissors/)
 
 
 ## Repository
@@ -20,7 +20,7 @@ Images created using [Am I Responsive](https://ui.dev/amiresponsive)<br />
 
 ## Structure
 
-* The site is divided into two pages:
+* The site consists of one page:
     * index.html
     * game.html<br />
     <br />
@@ -184,7 +184,7 @@ To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind 
     * From the __Source__ selection drop-down, select __Branch__ > __main__
     * The page will then automatically refresh displaying a ribbon indicating deployment status<br />
     <br />
-    The deployed website can be found here - https://cmikedev.github.io/sudoku/<br />
+    The deployed website can be found here - https://cmikedev.github.io/rock-paper-scissors/<br />
     <br />
 
 ### Forking the repository
