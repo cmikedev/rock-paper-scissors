@@ -16,18 +16,6 @@ hr {
   width: 60%;
 }
 
-/*
-#instructions {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 33%;
-  text-align: center;
-  border: 1px solid black;
-  background-color: lightgray;
-}
-*/
-
 /*----------------------Instructions Button */
 
 #instructions-btn {
@@ -38,10 +26,6 @@ hr {
   padding: 2px;
   font-family: "Rampart One", sans-serif;
   transition: 0.3s ease;
-  /*background-color: grey;
-  font-weight: bold;
-  font-family: "Rampart One", sans-serif;
-  transition: 0.3s ease;*/
 }
 
 #instructions-btn:hover {
@@ -224,6 +208,16 @@ hr {
 }
 
 /*----------------------Media Queries */
+
+@media screen and (max-width: 800px) {
+  #rock, #paper, #scissors {
+    font-size: 1.5em;
+  }
+
+  .js-end-game {
+    font-size: 0.4em;
+  }
+}
 
 @media screen and (max-width: 550px) {
   #page-title {

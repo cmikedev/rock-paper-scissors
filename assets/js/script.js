@@ -13,7 +13,6 @@ let computerChoice = "";
 let playerScore = 0;
 let computerScore = 0;
 
-/* window.onload = updateScores(); */
 window.onload = pageLoad();
 
 /*----------------------Page Load */
