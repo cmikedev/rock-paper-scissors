@@ -1,108 +1,230 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock Paper Scissors
+The Sudoku website is a user-interactive, JavaScript-based Sudoku puzzle game based on the classic 9x9 board. The intention of this [site](https://cmikedev.github.io/sudoku/) is to provide users with a simple, intuitive gameboard based on their expectations of what a Sudoku puzzle is.
+____
 
-Welcome cmikedev,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/amiresponsive-front.png?raw=true)
+![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/amiresponsive-game.png?raw=true)
+Images created using [Am I Responsive](https://ui.dev/amiresponsive)<br />
+<br />
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+## Deployed Website
+[Sudoku](https://cmikedev.github.io/sudoku/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Repository
+(https://github.com/cmikedev/rock-paper-scissors)
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Structure
 
-A blue button should appear to click: _Make Public_,
+* The site is divided into two pages:
+    * index.html
+    * game.html<br />
+    <br />
 
-Another blue button should appear to click: _Open Browser_.
+## Styling
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The colour palette is simple and subdued with only white, black and shades of grey being utilised. This was intentional and inspired from viewing online Sudoku games. It was surmised that this clean and simplistic style is what regular players of online Sudoku may have come to expect and would also increase usability and clarity for new players.
 
-To log into the Heroku toolbelt CLI:
+To hint at a Japanese theme (as Sudoku is Japanese) an opaque image sits behind the instruction text of the front page and 'Noto Serif' was used from Google Fonts.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Features
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* ### Main Text
+    * The front page provides instructions for users on how to play Sudoku as well as a bold, obvious link to the game page.<br />
+    <br />
 
-------
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/instructions.png?raw=true)<br />
+    <br />
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* ### The Footer
+    * The footer section contains social media links encouraging the user to connect and engage via social media.
+    * The social media links open in a new tab allowing easy navigation for the user.<br />
+    <br />
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/social-media-footer.png?raw=true)<br />
+    <br />
+    
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* ### The Game Page
+    * Users can access the game page by clicking on the 'To The Game Page!' link on the front page.
+    * When users arrive on the game page they are presented with a very simple layout allowing them a choice of 'Easy', 'Medium' or 'Hard' and the 'Start Game!'.
+    * The difficulty choice will determing how many lives a user will be given from 12, 7 down to 3.<br />
+    <br />
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/game-page.png?raw=true)<br/>
+    <br />
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    * When the user clicks on 'Start Game!' the board will generate.
+    * At any stage the user can click the 'Reset' button and the board will disappear leaving the user free to select a new difficulty level and start again.<br />
+    <br />
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/game-page-board.png?raw=true)<br />
+    <br />
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Testing
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Responsiveness Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* The responsiveness tests were carried out manually using Google Chrome's [Inspect Function](https://developer.chrome.com/docs/devtools/open/) with also some real world testing on actual devices. Some of the devices tested included (but not limited to):
+    * Nest Hub Max
+    * iPad Mini
+    * iPad Air
+    * Samsung Galaxy S8+
+    * iPhone SE
+    * Samsung Galaxy S8 (real-world test on device)
+    * Samsung Galaxy S9 (real-world test on device)
+    * Apple MacBook Air (real-world test on device) <br />
+    <br />
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* Based on this testing and although optimised through code for devices as low as width 450 pixels, the smallest device that could be recommended to a user is a device with a width of at least 500 pixels (see Bugs section for further comments).<br />
+<br />
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Validator Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* #### W3C
+    * HTML
+        * There were no errors or warnings within the HTML when checked through The [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2F)
+    * CSS
+        * There were no errors or warnings within the CSS when checked through The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2Fgame.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)<br />
+        <br />
 
-------
+* #### JSHint
+    * The JavaScript was tested through [JSHint](https://jshint.com/). There were no errors found.<br />
+    <br />
 
-## FAQ about the uptime script
+* #### Lighthouse (web.dev)
+    * Lighthouse through [web.dev](https://web.dev/) was used to test the site for: 
+        * Performance
+        * Accessibility
+        * Best Practice
+        * SEO<br />
+        <br />
+    On the front page, the Accessibility, Best Practices and SEO were all 100%. However, the Performance came in lower at 89%<br />
+    <br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/lighthouse-front-results-1.png?raw=true)<br />
+    <br />
+    With the addition of Google Fonts, the Performance score dipped further to 77%.<br />
+    <br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/lighthouse-front-results-2.png?raw=true)<br />
+    <br />
+    Althought Google Fonts is a factor, the biggest driver of the sub-optimal performance on the front page is the background image.<br />
+    <br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/lighthouse-opportunity-image.png?raw=true)<br />
+    <br /> 
+    [web.dev](https://web.dev/) suggests changing the image format from its current format of .PNG to either AVIF or WebP. However, given that .PNG is widely supported across browsers and that the website itself is relatively small and shows no sluggishness in real-world testing, the image has been left in its .PNG format (see Bugs section for further comment).<br />
+    <br />
+    On the first test of the game page all returned results with the exception of Accessibility (96%) came in at 100%<br />
+    <br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/lighthouse-game-results-1.png?raw=true)<br />
+    <br />
+    Again, with the addition of Google Fonts, the Performance score dropped on the second test to 89%.<br />
+    <br />
+    ![image](https://github.com/cmikedev/sudoku/blob/main/assets/readme-images/lighthouse-game-results-2.png?raw=true)<br />
+    <br />
+    <br />
+    * The front page full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2F)<br />
+    <br />
+    
+    * The game page full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fsudoku%2Fgame.html)<br />
+    <br />
 
-**Why have you added this script?**
+## Bugs
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Console Errors (fixed)
+* JavaScript is only called upon html items in the game.html page. However, a console error was appearing on the index.html page.<br />
+<br />
 
-**How will this affect me?**
+![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/console-error.png)<br />
+<br />
+* This error was due to the 'window.onload' call which was being applied to all pages.<br />
+<br />
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/window-onload.png)<br />
+<br>
+* The fix was to ensure that the 'window.onload' event only occurred if the id being called actually existed on the html page. In the case of the id 'start-button', this only existed in 'game.html' so setting a conditional of 'True' solved the console error.<br />
+<br />
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/window-onload-fix.png)<br />
+<br />
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Board Replication (fixed)
+* When the user starts a new game, they are able to select the 'Start Game!' button again and another board will generate below the one previously generated with an overlap. It is possible for a user to continue generating boards. The start game process does not recognise another board having already been generated.<br />
+<br />
 
-**So….?**
+![image](https://raw.githubusercontent.com/cmikedev/sudoku/main/assets/readme-images/new-game-duplication.png)<br />
+<br />
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* This was fixed by removing the even listener from the start game button once the board had been loaded and then adding it back to the start game button when the game is reset.<br />
+<br />
 
-**Can I opt out?**
+### Performance (unfixed)
+* As in the testing section above, the use of Google Fonts and the background image both had a negative effect on the performance of the website. In real-world testing on other devices the website showed no sign of being adversely effected when being loaded. For that reason fixes or further optimization have not been applied to both of these elements for this release. They are being recorded as unfixed bugs as the potential for users to experience performance issues should the site be scaled up is noted.<br />
+<br />
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Responsiveness (unfixed)
+* As noted above, the responsiveness suffers on a screen width of less than 500 pixels. Even at larger screens the footer and title are off-set to the right of the main box. This comes down to a fundamental aspect of the design whereby the game board is 450 pixels (9x9 50 pixel squares) housing 45 divs created via JavaScript that is then positioned using percentages. To fix this issue would require a revision of the creation of the game board itself and is currently unfixed for this release.<br />
+<br /> 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+## Deployment
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Deploying the repository via GitHub
+* The website was deployed using GitHub pages via the following steps:
+    * In the Respository section, select the [sudoku](https://github.com/cmikedev/sudoku) repository
+    * From the horizontal menu above the repository contents select __Settings__
+    * From the left-hand vertical menu, go to the __code and automation__ section and select __pages__
+    * From the __Source__ selection drop-down, select __Branch__ > __main__
+    * The page will then automatically refresh displaying a ribbon indicating deployment status<br />
+    <br />
+    The deployed website can be found here - https://cmikedev.github.io/sudoku/<br />
+    <br />
 
----
+### Forking the repository
+* The GitHub repository can be forked to make a copy of the original. This copy can then be viewed or changed without affecting the original repository via the following steps:
+    * In the Respository section, select the [sudoku](https://github.com/cmikedev/sudoku) repository
+    * At the top right of the page select __fork__ from the menu below your profile
+    * A copy of the repository will now be created in your account
 
-Happy coding!
+### Creating a local clone
+* To create a local clone via GitHub:
+    * In the Respository section, select the [sudoku](https://github.com/cmikedev/sudoku) repository
+    * From the horizontal menu above the repository contents select __Code__
+    * __Copy__ the link that that is shown
+    * Within __Gitpod__ change the directory to where you would like the location of the cloned directory to be
+    * Type __git clone__ and paste the link that you copied
+    * Press __Enter__ and the local clone will be created<br />
+    <br />
+
+
+
+## Credits
+
+### Content
+* The favicon in the tile (page tab) was taken from [Flaticon](https://www.flaticon.com/)
+* The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+* The fonts were taken from [Google Fonts](https://fonts.google.com/)
+* Code from the [Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) project was utilised in the footer sections and social media links
+* Code from [CSS Tricks](https://css-tricks.com/snippets/css/transparent-background-images/) was taken to set the opacity of the background image without affecting the rest of the div
+* Solved Sudoku puzzle taken from [Sudoku Sandiway](https://sandiway.arizona.edu/sudoku/examples.html)
+* [KennyYipCoding](https://www.youtube.com/watch?v=S4uRtTb8U-U) The basic code in this tutorial provided the basis for the design of the project particularly creating and populating the board
+
+### Media
+* The background image was taken from [Pixabay](https://pixabay.com/vectors/dinosaur-katana-japan-ninja-5178645/)
+
+### Research and Guidance
+* [RedFlyer Coding](https://www.youtube.com/watch?v=ea3UBpMHDoc&t=1096s) (video series) for guidance on board creation logic and user experience
+* [Stackoverflow](https://stackoverflow.com/questions/26107125/cannot-read-property-addeventlistener-of-null) for guidance on the window load console error
+
+----
+
+## Acknowledgements
+I would like to thank my course mentor Harry Dhillon for providing guidance on this project.
+
